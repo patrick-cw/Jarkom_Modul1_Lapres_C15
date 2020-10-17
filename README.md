@@ -9,9 +9,9 @@ Lapres Modul 1 Jarkom
 **1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!**
 Mengisi display filter dengan : ```http.host contains "testing.mekanis.me"```
 
-![](screenshots/1.1.png)
+![1.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/1.1.png)
 
-![](screenshots/1.2.png)
+![1.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/1.2.png)
 
 Lalu Follow TCP Stream, maka bisa dilihat server yang digunakan nginx/1.14.0 (Ubuntu)
 
