@@ -23,6 +23,7 @@ Mengisi display filter dengan : ```http contains "Tim_Kunjungan_Kerja_BAKN_DPR_R
 Kemudian export objects → http, lalu save foto yang diminta
 
 ![2.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/2.2.png)
+
 ![2.3](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/2.3.png)
 
 File yang didownload berada di komputer kita.
