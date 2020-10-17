@@ -51,6 +51,8 @@ Lalu kita mengisi pertanyaan yang ada di web "aku.pengen.pw"
 
 ![5.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/5.2.png)
 
+Dengan jawabannya : "putih-orange, orange, putih-hijau, biru, putih-biru, hijau, putih-coklat, coklat"
+
 **6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).**
 
 Mengisi display filter dengan : ```ftp-data```. Nanti mencari info yang "Answer.zip"
