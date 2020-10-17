@@ -89,7 +89,7 @@ Follow --> TCP Stream, lalu ubah data dari ASCII ke Raw. Save as Yes.zip ke komp
 
 ![7.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.2.png)
 
-(tambahin keterangan pat)
+(belum ada keterangan pat)
 
 ![7.3](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.3.png)
 
@@ -140,15 +140,47 @@ Setelah save file pdfnya, kita dapat membuka file pdf tersebut.
 
 **11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!**
 
+Mengisi Capture Filter dengan : ```port 21```
+
+![11.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/11.1.png)
+
+Dengan membuka Windows PowerShell, kita memasukkan comman ```ftp localhost```. Kemudian login dengan username dan password yang ada. 
+Lalu memasukkan command seperti ls, pwd, mkdir, dll. Nanti di wireshark akan muncul seperti berikut :
+
+![11.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/11.2.png)
 
 **12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!**
 
+Mengisi Capture Filter dengan : ```src port 80```
+
+![12.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/12.1.png)
+
+(belum ada penjelasan pat)
+
+![12.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/12.2.png)
 
 **13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!**
 
+Mengisi Capture Filter dengan : ```dst port 443```
+
+![13.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/13.1.png)
+
+(belum ada penjelasan pat)
+
+![13.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/13.2.png)
 
 **14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!**
 
+Mengisi Capture Filter dengan : ```src host 192.168.1.4```
+
+![14](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/14.png)
 
 **15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!**
 
+Mengisi Capture Filter dengan : ```host monta.if.its.ac.id```
+
+![15.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/15.1.png)
+
+(belum ada penjelasan pat)
+
+![15.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/15.2.png)
