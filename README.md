@@ -83,3 +83,72 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"**
 
 Mengisi display filter dengan : ```frame contains "Yes.pdf"```
 
+![7.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.1.png)
+
+Follow --> TCP Stream, lalu ubah data dari ASCII ke Raw. Save as Yes.zip ke komputer, lalu extract data pdf didalamnya.
+
+![7.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.2.png)
+
+(tambahin keterangan pat)
+
+![7.3](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.3.png)
+
+![7.4](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.4.png)
+
+**8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!**
+
+Mengisi display filter dengan : ```ftp contains Microsoft```, lalu kita menemukan ip dari Microsoft, yaitu 198.246.117.106
+
+![8.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/8.1.png)
+
+Mencari objek yang didownload dari koneksi Microsoft FTP service dengan memasukkan display filter : ```ftp.request.command == RETR && ip.dst == 198.246.117.106```
+
+![8.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/8.2.png)
+
+Didapatkan objek yang didownload hanya satu yaitu Readme.
+
+**9. Cari username dan password ketika login FTP pada localhost!**
+
+Mengisi display filter dengan : ```ftp.request.command == PASS || ftp.request.command == USER```
+
+![9](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/9.png)
+
+Lalu didapatkan user dan password untuk login FTP pada localhost
+
+**10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
+clue: "25 50 44 46"**
+
+Pertama kita find dengan Hex Value = 25 50 44 46, lalu isi display filter : ```frame contains "application/pdf".```
+
+![10.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/10.1.png)
+
+setelah itu, klik kanan, follow → TCP Stream
+
+![10.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/10.2.png)
+
+Lalu ubah data dari ASCII ke Raw. Save as dalam bentuk pdf ke komputer dengan nama “bebas.pdf”.
+
+![10.3](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/10.3.png)
+
+Setelah save file pdfnya, kita dapat membuka file pdf tersebut.
+
+![10.4](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/10.4.png)
+
+![10.5](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/10.5.png)
+
+### Capture Filter
+
+**11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!**
+
+
+**12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!**
+
+
+**13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!**
+
+
+**14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!**
+
+
+**15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!**
+
