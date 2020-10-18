@@ -87,13 +87,15 @@ Mengisi display filter dengan : ```frame contains "Yes.pdf"```
 
 ![7.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.1.png)
 
-Follow --> TCP Stream, lalu ubah data dari ASCII ke Raw. Save as Yes.zip ke komputer, lalu extract data pdf didalamnya.
+Follow --> TCP Stream, lalu ubah data dari ASCII ke Raw. Save as Yes.zip ke komputer, sehingga file tersimpan di komputer kita.
 
 ![7.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.2.png)
 
-(belum ada keterangan pat)
+Lalu, file Yes.zip yang sudah tersimpan kita extract di komputer kita. Maka akan keluar file Yes.pdf
 
 ![7.3](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.3.png)
+
+Ketika file Yes.pdf dibuka, hasilnya akan seperti dbawah ini
 
 ![7.4](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/7.4.png)
 
@@ -157,7 +159,7 @@ Mengisi Capture Filter dengan : ```src port 80```
 
 ![12.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/12.1.png)
 
-(belum ada penjelasan pat)
+Berikut adalah hasil ketika wireshark mengambil paket yang berasal dari port 80.
 
 ![12.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/12.2.png)
 
@@ -167,7 +169,7 @@ Mengisi Capture Filter dengan : ```dst port 443```
 
 ![13.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/13.1.png)
 
-(belum ada penjelasan pat)
+Berikut adalah hasil ketika wireshark hanya menampilkan paket yang menuju port 443.
 
 ![13.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/13.2.png)
 
@@ -183,6 +185,6 @@ Mengisi Capture Filter dengan : ```host monta.if.its.ac.id```
 
 ![15.1](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/15.1.png)
 
-(belum ada penjelasan pat)
+Berikut adalah hasil ketika wireshark hanya mengambil paket yang menuju ke monta.if.its.ac.id
 
 ![15.2](https://github.com/anggarayp/Jarkom_Modul1_Lapres_C15/blob/main/Screenshots/15.2.png)
